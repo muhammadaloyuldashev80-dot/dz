@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    background-color: #101220;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+button {
+    width: 175px;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    background-color: #BFAFF2;
+    font-size: 18px;
+
+}
+
+.box1{
+    display: flex;
+    gap: 30px;
+}
+
+select {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+
+.box2 {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.hover-box{
+    display: none;
+}
+
+.hover-text:hover{
+    .hover-box{
+        display: block;
+        box-shadow: 10px 10px 10px 10px;
+        gap: 11px;
+    }
+}
+
+main{
+    display: flex;
+
+}
+
+.gojo1{
+ width: 325;
+height: 240;
+opacity: 1;
+border-radius: 32px;
+color: #232028;
+
+}
+.gojo2{
+width: 325;
+height: 240;
+opacity: 1;
+border-radius: 32px;
+color: #232028;
+}
+.gojo3{
+width: 325;
+height: 240;
+opacity: 1;
+border-radius: 32px;
+color: #232028;
+}
+.gojo4{
+width: 325;
+height: 240;
+opacity: 1;
+border-radius: 32px;
+color: #232028;
+}
+footer{
+    color: white;
+    height: 100px;
+    background-color: #101220;
+    margin-top: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img{
+   
+}
+
